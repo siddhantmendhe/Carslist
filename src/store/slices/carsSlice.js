@@ -29,6 +29,7 @@ const carsSlice=createSlice({
             state.data=updated;
         }
     }
+  
 });
 
 export const {changeSearcTerm,addCar,removeCar}= carsSlice.actions;

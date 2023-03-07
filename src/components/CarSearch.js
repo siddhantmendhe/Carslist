@@ -8,7 +8,7 @@ function CarSearch(){
     });
 
     const handleSearchTermChange=(event)=>{
-        dispatch(changeSearcTerm(event.target.value));
+          dispatch(changeSearcTerm(event.target.value));
     }
 
 
